@@ -5,7 +5,7 @@
   <title>Star Wars Responsive Challenge</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"|>
 
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
@@ -14,9 +14,57 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
-
+<link href="styles/grid-style.css" rel="stylesheet">
+<link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
+<main>
+<header class="col-12">
+<h3>Star Wars Characters</h3>
+<p>incomplete list</p>
+</header>
 
+<section>
+<div class ="row">
+<div class ="col-4"><div class="image">
+<img src="images/chewbacca_square.png" />
+<figcaption>Chewbacca</figcaption>
+<p>A great first mate</p>
+</div></div>
+
+
+<div class ="col-4">
+<div class ="image">
+<img src="images/finn_square.png" />
+<figcaption>Finn</figcaption>
+<p>storm trooper,  befriends Ray </p>
+</div></div>
+<div class =" col-4">
+<div class ="image">
+<img src="images/poe_square.png">
+<figcaption>Poe</figcaption>
+<p>neutral pilot</p>
+</div></div>
+<div class ="col-4">
+<div class ="image">
+<img src="images/rey_square.png" />
+<figcaption>Ray</figcaption>
+<p>protagonist from tatooine</p>
+</div></div>
+<div class ="col-4">
+<div class ="image">
+<img src="images/kylo_square.png" />
+<figcaption>Kylo</figcaption>
+<p>main villain, or isn't he? </p>
+</div></div>
+<div class ="col-4">
+<div class ="image">
+<img src="images/yoda_square.png" />
+<figcaption>Yoda</figcaption>
+<p>wise old Jedi master</p>
+</div></div>
+</div>
+</section>
+</main>
 </body>
 </html>
